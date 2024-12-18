@@ -61,7 +61,7 @@ class PatientsPage(QWidget):
 
         layout = QVBoxLayout()
         self.label = QLabel("Список пациентов")
-        self.patients_list = QLabel()  # Здесь отображается текстовый список пациентов
+        self.patients_list = QLabel() 
         self.back_button = QPushButton("Назад")
 
         layout.addWidget(self.label)
